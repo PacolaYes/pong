@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# build folder
+build/
+
+# ignore SMSlib folder, we HAVE to commit .libs from there :P
+!SMSlib/**
